@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import { api } from './api';
@@ -57,7 +56,7 @@ function App() {
 
         </div>
       </div>
-      <div className='grid grid-cols-3 gap-4 py-4'>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-4 py-4'>
         {membros.map(membro => (
           <div className='flex gap-4 items-center'>
             <div><img className='rounded-full h-28 w-28' src={`data:image/png;base64, ${membro.imagemBase64}`} /></div>

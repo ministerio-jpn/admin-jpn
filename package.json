@@ -1,6 +1,7 @@
 {
   "name": "admin-jpn",
   "version": "0.1.0",
+  "homepage": "http://admin.ministeriojpn.com/admin/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
